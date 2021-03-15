@@ -1,7 +1,9 @@
 package com.crm.comcast.MavenTest;
 
-public class NewAccountTest {
+import org.testng.annotations.Test;
 
+public class NewAccountTest {
+  @Test
 	public void NewAccount(String Name) {
 		System.out.println("abc");
 		
